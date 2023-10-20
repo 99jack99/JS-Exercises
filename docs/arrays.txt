@@ -39,3 +39,35 @@ Adds a new element to the beginning
 
 valueOf()
 Returns the primitive value of the specified object
+
+
+
+-------------
+HIGH ORDER  |
+-------------
+
+forEach()
+Iterate an array elements. We use forEach only with arrays. 
+
+map()
+Iterate an array elements and modify the array elements.
+
+Filter()
+Filter out items which full fill filtering conditions and return a new array.
+
+Reduce()
+Returns a single value. 
+It is a good practice to define an initial value for the accumulator value. 
+
+Every() 
+Check if all the elements are similar in one aspect. It returns boolean
+
+Some()
+Check if some of the elements are similar in one aspect. It returns boolean
+
+find() 
+Return a element which satisfies the condition
+
+Sort()
+The sort methods arranges the array elements either ascending or descending order. 
+By default, the sort() method sorts values as strings.

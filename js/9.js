@@ -4,33 +4,27 @@ Write a JavaScript function to capitalize the first letter of each word in a str
 
 
 function wordCapitalizer(text) {
-    
+    console.log(text);
 
-    let p = text.split('')
+    let texttoarray = text.split(' ')
 
-    /* console.log(text.split('')); */
-    console.log(p);
+    let formattedText = [];
 
-    console.log(p.indexOf(' '));
-    
+    for (let word of texttoarray) {
 
-    /* for (let i = 0; i < p.length; i++) {
-        
-        if (p[i] == ' ') {
-            console.log(p.indexOf(' '));
-        }
+        let firstLetter = word.slice(0,1).toUpperCase()
+        let restword = word.slice(1)
+
+        formattedText.push(firstLetter.concat(restword))
 
         
-        
-
-    } */
-
-    for (let item of p) {
-        if (item == ' ') {
-           console.log(item);
-        }
-    
     }
+
+    console.log(formattedText.join(' '));
+
+
+
+
 }
 
-wordCapitalizer('deberia ir al mercado')
+wordCapitalizer('hola jaimito como estas')
