@@ -1,0 +1,1 @@
+/* Create a function that returns an array with words inside a text. */
