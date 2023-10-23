@@ -1,0 +1,1 @@
+Javascript exercises most of them comes from https://www.w3resource.com/javascript-exercises/
